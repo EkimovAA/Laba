@@ -17,3 +17,4 @@ for n in tab:
          sum_t = (t - tab_avg[n])**2
 s = ((sum_t/len(tab[n]*(len(tab[n]-1)))))**0
 x_sl[i] = stats.t.ppf((1+alpha)/2, v-1) * s[n]
+`
